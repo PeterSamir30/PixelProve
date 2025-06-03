@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Prove - Detection Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pixel Prove - Detection Result</h1>
+        <div class="result-container">
+            <h2>{{ model_name }} Analysis</h2>
+            <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image"
+                class="uploaded-image">
+            <div class="result-box">
+                <p class="result-text"><strong>Prediction:</strong> {{ result.split('(')[0].strip() }}</p>
+                <p class="confidence-text">({{ result.split('(')[-1].strip() }})</p>
+            </div>
+            <a href="/" class="back-button">Test Another Image</a>
+        </div>
+    </div>
+</body>
+
+</html>
