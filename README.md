@@ -10,7 +10,9 @@ PixelProve is an AI-powered image integrity detection system designed to verify 
 
 ### Test cases for DeepFake Model
 ![image](https://github.com/user-attachments/assets/38a4c9cc-c9c7-475b-89c6-2f9b8d337c1c)
-![image](https://github.com/user-attachments/assets/9926a32e-b2ae-4451-88dd-611afc8cc292)
+![Uploading image.png…]()
+
+
 
 
 
